@@ -17,10 +17,10 @@ body.dark-mode {
 }
 
 body {
+  font-family: 'Segoe UI', sans-serif;
   background-color: var(--bg);
   color: var(--text);
-  font-family: 'Segoe UI', sans-serif;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 header {
@@ -54,7 +54,7 @@ section {
 }
 
 .project {
-  background: #f0f0f0;
+  background: #f1f1f1;
   padding: 1rem;
   margin-top: 1rem;
   border-left: 5px solid var(--accent);
@@ -66,3 +66,6 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+
+ 
